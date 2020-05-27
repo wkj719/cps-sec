@@ -51,7 +51,7 @@ class GraphMatrix(object):  # 단어 그래프와 {idx: word} 딕셔너리 생�
         vocab = self.cnt_vec.vocabulary_    # 단어장 {번호: 단어} 생성
         return np.dot(cnt_vec_mat.T, cnt_vec_mat), {vocab[word] : word for word in vocab}   # (단어 그래프, 딕셔너리) 반환
 
-class Ranking(object):  # TF-IDF 그래프에서 {idx: rank} 딕셔너리 생성
+class Ranking(object):  # 그래프에서 {idx: rank} 딕셔너리 생성
     def get_ranks(self, graph, d=0.85): # damping factor는 PageRank의 0.85를 그대로 사용
         A = graph
         matrix_size = A.shape[0]    # 그래프 크기 저장
