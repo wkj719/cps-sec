@@ -18,3 +18,5 @@
     
     Keywords Vectorizing
 
+    빈도에 따른 순위매김
+   
