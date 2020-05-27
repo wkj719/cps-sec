@@ -11,8 +11,10 @@
     TextRank
 
 - 현재 기능
+
     크롬 히스토리에 접근하여 방문기록 수집
     
     방문기록에서 단어 추출
-    단어 벡터화
+    
+    Keywords Vectorizing
 
